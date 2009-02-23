@@ -1,0 +1,6 @@
+---
+layout: default
+title: Eclipse Github
+---
+
+A place to host Eclipse related projects!
