@@ -3,4 +3,6 @@ layout: default
 title: Eclipse Github
 ---
 
-A place to host Eclipse related projects!
+A place to host Eclipse related projects! If you'd like to maintain a mirror of eclipse.org or doing any eclipse hacking on the side, send us a note and we'll create a project for you here.
+
+Admins: Ketan Padegaonkar [ketanpadegaonkar at gmail dot com], Antoine Toulme [antoine at lunar-ocean dot com]
