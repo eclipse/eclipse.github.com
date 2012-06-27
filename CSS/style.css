@@ -98,7 +98,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   background: #f9f9f9;
-  height: 100%; }
+  height: 100%;
+  width: 100%; }
 
 .container {
   position: relative;
@@ -233,7 +234,7 @@ a {
   float: right; }
 
 #hero {
-  width: 475px;
+  width: 470px;
   height: 301px;
   margin: 18px 0 0 0;
   background-image: url("../images/hero.png");
@@ -496,6 +497,7 @@ body > #wrap {
 
 /* must be same height as the footer */
 #footer {
+  width: 100%;
   position: relative;
   margin-top: -120px;
   /* negative value of footer height */
