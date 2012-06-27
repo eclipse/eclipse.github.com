@@ -372,7 +372,7 @@ a {
 #help .help-ex {
   float: right;
   max-width: 45%;
-  margin: 0 0 0 35px; }
+  margin: 0 35px; }
 #help li {
   float: left;
   margin: 5px 15px 0 0; }

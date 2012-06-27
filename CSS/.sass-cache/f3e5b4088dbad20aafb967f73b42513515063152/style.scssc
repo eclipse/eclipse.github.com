@@ -1,7 +1,7 @@
 3.1.19 (Brainy Betty)
-716a84ee2ba74db3c6eb512f6063801916e6e462
+1be47049721bf167d99b07a3eced61c3b367a824
 o:Sass::Tree::RootNode
-:@template"c:/* #Reset & Basics (Inspired by E. Meyers)
+:@template"_:/* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
   html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
@@ -401,7 +401,7 @@ a {
   .help-ex {
     float: right;
     max-width: 45%;
-    margin: 0 0 0 35px;
+    margin: 0 35px;
   }
 
   li {
@@ -3010,7 +3010,7 @@ right;;;ièo;;[ ;
 @
 ;["margin;;;i ;o;;
 @
-;"0 0 0 35px;;;ië;
+;"0 35px;;;ië;
 @
 ; T;i ;iéo;;["li;o;;" ;iî;[o;;[o;;@O;iî;[o;	;["li;0;@O;iî;[o;;[ ;
 @
