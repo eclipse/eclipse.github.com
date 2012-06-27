@@ -242,7 +242,7 @@ a {
 
   p {
     width: 100%;
-    color: #D1D1D1;
+    color: #B5B5B5;
     font-weight: bold;
     font-size: 13px;
     text-shadow: 0 1px 0 #fff;
@@ -443,9 +443,9 @@ a {
     color: #848484;
   }
 
-  span {
+  span.fixed, span.improved, span.added {
     font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding: 3px 6px;
+
     text-transform: uppercase;
     color: #FFF;
     font-weight: bold;
@@ -454,8 +454,11 @@ a {
     border-radius: 2px;
     font-size: 12px;
     font-weight: bold;
-    padding: 4px 6px;
+    padding: 2px 6px;
     margin-right: 10px;
+    display: inline-block;
+    width: 70px;
+    text-align: center;
   }
 
   span.fixed {
