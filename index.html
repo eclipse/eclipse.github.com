@@ -1,0 +1,191 @@
+<html>
+<head>
+  <link rel="stylesheet" href="CSS/style.css" type="text/css" media="screen" charset="utf-8">
+  <script src="js/jquery-1.7.1.js" type="text/javascript"></script>
+  <script src="js/jquery.hashchange.min.js" type="text/javascript"></script>
+  <script src="js/jquery.easytabs.js" type="text/javascript"></script>
+  <title>Git in Eclipse</title>
+</head>
+<body>
+<div id="wrap" class="clearfix">
+<div id="main" class="clearfix">
+  <div id="header">
+    <div class="container">
+    	<img src="images/eclipse_logo.png" width="172" class="left" alt="GitHub for Eclipse" />
+      <a href="http://www.eclipse.org/egit/download/" class="skinny-butt right"><span><img src="images/git_icon_white.png" alt="Git Icon White" /></span>Download EGit from Eclipse.org</a>
+    </div>
+  </div>
+
+
+  <!-- Main Body Container --> 
+  <div class="container">
+    <div class="shadow-stuff clearfix">
+      <div class="top-container clearfix">
+
+
+        <div class="top-left">
+          <h1>Develop with Git in Eclipse,<br>Share and discuss on GitHub</h1>
+          <p>Branch, merge, clone, and synchronize repositories from Eclipse with EGit.&nbsp;&nbsp;Work with issues, pull requests, and Gists from Eclipse with the GitHub Mylyn Connector.</p>
+          <a class="big-button" href="http://eclipse.org/egit/download/">
+            <div class="inner">
+              <h4>Download Git & GitHub for Eclipse</h4>
+              <p>Free to download, free to use.</p>
+            </div>
+          </a>
+        </div>
+
+        <div id="hero-container" class="top-right">
+          <div id="hero"></div>
+        </div>
+      </div> 
+    </div>
+
+    <div class="clear"></div>
+    <div class="jgit"> 
+      <p class="left"><span>EGit and the GitHub Mylyn Connector use JGit, a Java implementation of the Git version control system.</span> <a href="http://www.eclipse.org/jgit/download/">Download JGit from Eclipse.org</a></p>
+    </div>
+      
+    <div id="bottom" class="clearfix">
+      <div id="middle" class="clearfix">
+        <div id="tab-container" class="tab-container">
+
+          <ul id="bottom-tabs" class="etabs">
+            <li class="tab"><a href="#overview">Overview</a></li>
+            <li class="tab"><a href="#help">Help</a></li>
+            <li class="tab"><a href="#release-notes">Release Notes</a></li>
+          </ul>
+
+          <div class="content-block">
+            <div id="overview">
+              
+              <ol class="slats">
+                <li class="group">
+                  <h3>
+                    <div>
+                      <img src="images/clone-repos.png" />
+                    </div>
+                    Commit Changes
+                  </h3>
+                  <p>See your uncommitted changes and easily compare, commit, or undo them.</p>
+                </li>
+                <li class="group">
+                  <h3>
+                    <div>
+                      <img src="images/track-changes.png" /><br>
+                    </div>
+                    Track Edits
+                  </h3>
+                  <p>See why, when, and by whom each line of a file was last changed.</p>
+                </li> 
+                <li class="group">
+                  <h3>
+                    <div>
+                      <img src="images/browse-history.png" /><br>
+                    </div>
+                    Browse History
+                  </h3>
+                  <p>Visualize commits over time and quickly see which branches have been merged.</p>
+                </li>            
+              </ol>
+            </div>
+
+            <!-- Help Content -->        
+            <div id="help">
+              <div>
+                <img src="images/install-help-smaller.png" class="left"/>
+                <div class="right help-ex">
+                  <h3>How do I install EGit and the GitHub Mylyn Connector?</h3>
+                  <p>To install Egit and the Github Mylyn Connector from within Eclipse, navigate to the Help menu inside of Eclipse and select Install New Software. Enter the <a href="http://download.eclipse.org/releases/juno">Juno update site url</a> and search 'git' in the filter box. Once you've selected the EGit, JGit, and Mylyn GitHub items hit Next to finish the installation.</p>
+                  <ul>
+                    <li><a href="http://www.eclipse.org/forums/index.php/f/48/">EGit forums</a></li>
+                    <li><a href="https://bugs.eclipse.org/bugs/">Report an issue</a></li>
+                    <li><a href="https://dev.eclipse.org/mailman/listinfo/egit-dev">Subscribe to the mailing list</a></li>
+                  <ul>
+                </div>
+              </div>
+            </div><!-- End of Help Content -->
+
+            <!-- Release Notes Content -->
+            <div id="release-notes">
+              <h2>2.0 <span>June 27, 2012</span></h2>
+              <ul class="notes">
+                <li><span class="fixed tag">fixed</span> Indexing performance problems on large repositories</li>
+                <li><span class="added tag">added</span> Stash support</li>
+                <li><span class="added tag">added</span> Importing source projects from a plug-in's Git repository</li>
+              </ul>
+              <a href="http://wiki.eclipse.org/EGit/New_and_Noteworthy/2.0">See all the new and noteworthy changes for the 2.0 release</a>
+              <br>
+              <br>
+              <h2>1.3 <span>February 15, 2012</span></h2>
+              <ul class="notes">
+                <li><span class="added tag">added</span> Submodule support</li>
+                <li><span class="improved tag">improved</span> Project import from GitHub and Gerrit</li>
+                <li><span class="improved tag">improved</span> Showing unsychronized commits in Git Repositories view</li>
+              </ul>
+              <a href="http://wiki.eclipse.org/EGit/New_and_Noteworthy/1.3">See all the new and noteworthy changes for the 1.3 release</a>
+              <br>
+              <br>
+              <h2>1.2 <span>December 22, 2011</span></h2>
+              <ul class="notes">
+                <li><span class="fixed tag">fixed</span> Slow performance of text and icon decorations</li>
+                <li><span class="added tag">added</span> Following renames in History view</li>
+                <li><span class="improved tag">improved</span> Support for project rename</li>
+              </ul>
+              <a href="http://wiki.eclipse.org/EGit/New_and_Noteworthy/1.2">See all the new and noteworthy changes for the 1.2 release</a>
+              <br>
+              <br>
+              <h2>1.1 <span>September 23, 2011</span></h2>
+              <ul class="notes">
+                <li><span class="added tag">added</span> Reflog view</li>
+                <li><span class="added tag">added</span> GitHub pull request support</li>
+                <li><span class="improved tag">improved</span> Content assist in commit dialog</li>
+              </ul>
+              <a href="http://wiki.eclipse.org/EGit/New_and_Noteworthy/1.1">See all the new and noteworthy changes for the 1.1 release</a>
+              <br>
+              <br>
+              <h2>1.0 <span>June 22, 2011</span></h2>
+              <ul class="notes">
+                <li><span class="added tag">added</span> Commit search</li>
+                <li><span class="added tag">added</span> Staging view</li>
+                <li><span class="added tag">added</span> Blame annotations in the editor</li>
+                <li><span class="added tag">added</span> GitHub Gists and issues support</li>
+              </ul>
+              <a href="http://wiki.eclipse.org/EGit/New_and_Noteworthy/1.0.0">See all the new and noteworthy changes for the 1.0 release</a>
+            </div>  <!-- End of Release Notes Content -->
+
+            <script type="text/javascript">$('#tab-container').easytabs();</script>
+          </div> <!-- End of Content Block Container -->
+        </div> <!-- End of Tabbed Container -->
+      </div> <!-- End of Middle Container -->
+    </div> <!-- End of Bottom Container -->
+  </div> <!-- End of Main Body Container -->
+</div> <!-- End of Non-Footer Wrapper -->
+</div>
+  <div id="footer">
+    <div class="container">
+      <a href="http://github.com" class="left social-coding"><img src="images/social-coding.png" width="120" alt="GitHub Social Coding"/></a>
+
+      <div class="footer-links left">
+        <ul class="github-nav">
+          <li><a href="http://github.com/blog" class="blog">The GitHub Blog</a></li>
+          <li><a href="mailto:support@github.com">Support</a></li>
+          <li><a href="http://github.com/contact">Contact</a></li>
+        </ul>
+        <p class="copyline">&copy; 2012 GitHub Inc. All rights reserved</p>
+      </div>
+    </div>
+  </div><!-- End of Footer -->
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '4feb3973f5a1f57d96000028');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+</body>
