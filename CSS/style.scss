@@ -153,6 +153,7 @@ a {
     line-height: 1.43;
     text-shadow: 0 1px 0 #FFF;
     padding: 3px 0 10px 0;
+    width: 435px;
   }
 
   a.big-button {
@@ -211,7 +212,7 @@ a {
   .top-left {
     float: left;
     padding: 0 0 0 35px;
-    width: 435px;
+    width: 470px;
   }
 
   .top-right {
@@ -224,9 +225,10 @@ a {
 }
 
 #hero {
-  width: 470px;
+  width: 453px;
   height: 301px;
   margin: 18px 0 0 0;
+  padding: 0;
   background-image: url('../images/hero.png');
   background-position: center bottom;
 }

@@ -178,7 +178,8 @@ a {
     font-size: 16px;
     line-height: 1.43;
     text-shadow: 0 1px 0 #FFF;
-    padding: 3px 0 10px 0; }
+    padding: 3px 0 10px 0;
+    width: 435px; }
   .top-container a.big-button {
     float: left;
     width: 450px;
@@ -226,7 +227,7 @@ a {
   .top-container .top-left {
     float: left;
     padding: 0 0 0 35px;
-    width: 435px; }
+    width: 470px; }
   .top-container .top-right {
     float: right; }
 
@@ -234,9 +235,10 @@ a {
   float: right; }
 
 #hero {
-  width: 470px;
+  width: 453px;
   height: 301px;
   margin: 18px 0 0 0;
+  padding: 0;
   background-image: url("../images/hero.png");
   background-position: center bottom; }
 
