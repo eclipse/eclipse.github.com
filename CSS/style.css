@@ -336,6 +336,7 @@ a {
 
 #overview, #help, #release-notes {
   margin: 40px 0 20px 35px;
+  padding: 0;
   overflow: hidden;
   clear: both; }
 
@@ -431,7 +432,7 @@ a {
 ol.slats li {
   float: left;
   width: 260px;
-  margin: 0 53px 0 0;
+  margin: 0 48px 0 0;
   padding: 0 0 10px 0;
   list-style-type: none;
   text-align: center; }
