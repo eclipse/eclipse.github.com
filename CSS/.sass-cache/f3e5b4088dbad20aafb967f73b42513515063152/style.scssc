@@ -1,5 +1,5 @@
 3.1.19 (Brainy Betty)
-24bdf2a514c3f09991eccc2ca5c4d52b7f88ad1b
+ca2d12ea72e0562b07070f25d38fbd4e9d670ec3
 o:Sass::Tree::RootNode
 :@template"÷9/* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
@@ -245,7 +245,7 @@ a {
 
   p {
     width: 100%;
-    color: #D2D2D2;
+    color: #D1D1D1;
     font-weight: bold;
     font-size: 13px;
     text-shadow: 0 1px 0 #fff;
@@ -491,7 +491,7 @@ a {
 ol.slats li {
   float: left;
   width: 260px;
-  margin: 0 48px 0 0;
+  margin: 0 52px 0 0;
   padding: 0 0 10px 0;
   list-style-type: none;
   text-align: center;
@@ -2215,7 +2215,7 @@ width;;;i ;o;;
 ;["
 color;;;i ;o;;
 @
-;"#D2D2D2;;;iõo;;[ ;
+;"#D1D1D1;;;iõo;;[ ;
 @
 ;["font-weight;;;i ;o;;
 @
@@ -3284,7 +3284,7 @@ width;;;i ;o;;
 @
 ;["margin;;;i ;o;;
 @
-;"0 48px 0 0;;;iëo;;[ ;
+;"0 52px 0 0;;;iëo;;[ ;
 @
 ;["padding;;;i ;o;;
 @
