@@ -147,7 +147,7 @@ a {
     margin: 0 10px -6px 0; }
 
 .shadow-stuff {
-  border-radius: 0% 0% 100% 100%/0% 0% 4px 4px;
+  border-radius: 0% 0% 100% 100% / 0% 0% 4px 4px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15); }
 
 .top-container {
@@ -190,7 +190,7 @@ a {
     font-size: 24px;
     line-height: 36px;
     font-weight: bold;
-    text-shadow: 0 -1px 0 black;
+    text-shadow: 0 -1px 0 #000;
     text-decoration: none;
     font-weight: bold;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -216,12 +216,12 @@ a {
         font-size: 24px;
         line-height: .7;
         padding: 20px 0 0 15px;
-        text-shadow: 0 -1px 0 black; }
+        text-shadow: 0 -1px 0 #000; }
       .top-container a.big-button .inner p {
         padding: 3px 0 0 15px;
         font-weight: bold;
         font-size: 14px;
-        text-shadow: 0 -1px 1px black;
+        text-shadow: 0 -1px 1px #000;
         line-height: 1.5;
         color: #8D8092;
         margin: 0; }
@@ -298,9 +298,9 @@ a {
   background-image: -webkit-linear-gradient(top, #f9f9f9, #f0f0f0 100%);
   background-image: -moz-linear-gradient(top, #f9f9f9, #f0f0f0 100%);
   background-image: -ms-linear-gradient(top, #f9f9f9, #f0f0f0 100%);
-  -webkit-box-shadow: 0 -1px 1px white;
-  -moz-box-shadow: 0 -1px 1px white;
-  box-shadow: 0 -1px 1px white; }
+  -webkit-box-shadow: 0 -1px 1px #FFF;
+  -moz-box-shadow: 0 -1px 1px #FFF;
+  box-shadow: 0 -1px 1px #FFF; }
   #bottom-tabs li {
     float: left;
     min-width: 46px;
@@ -455,9 +455,9 @@ ol.slats li h3 {
 ol.slats li h3 div {
   height: 142px;
   margin: 0 0 25px 0;
-  -webkit-border-radius: 0% 0% 100% 100%/0% 0% 8px 8px;
-  -moz-border-radius: 0% 0% 100% 100%/0% 0% 8px 8px;
-  border-radius: 0% 0% 100% 100%/0% 0% 8px 8px;
+  -webkit-border-radius: 0% 0% 100% 100% / 0% 0% 8px 8px;
+  -moz-border-radius: 0% 0% 100% 100% / 0% 0% 8px 8px;
+  border-radius: 0% 0% 100% 100% / 0% 0% 8px 8px;
   border: none;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
@@ -516,13 +516,8 @@ body > #wrap {
     padding: 20px 30px 0 0; }
   #footer .copyline {
     color: #727272;
-    float: left;
     font-size: 14px;
-    margin: 1px 0 0 0;
     line-height: 1.8; }
-  #footer .footer-links {
-    margin: 35px 0 0 0;
-    width: 300px; }
 
 .github-nav {
   line-height: 1.2;
@@ -534,6 +529,31 @@ body > #wrap {
     font-size: 13px; }
   .github-nav a:hover {
     text-decoration: underline; }
+
+.copyline, .github-nav, .invertocat {
+  margin: 32px 0 0 0; }
+
+.site-logo {
+  float: left; }
+
+.site-logo a {
+  text-indent: -999em;
+  overflow: hidden;
+  float: left;
+  width: 181px;
+  height: 35px;
+  background-image: url("../images/logo.png"); }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .site-logo a {
+    background-size: 181px 35px;
+    background-image: url("../images/logo@2x.png"); } }
+.invertocat {
+  position: absolute;
+  left: 50%;
+  margin-top: 28px;
+  margin-left: -12px;
+  opacity: .75; }
 
 .right {
   float: right; }
