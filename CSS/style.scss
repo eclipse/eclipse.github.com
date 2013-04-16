@@ -576,18 +576,12 @@ body > #wrap {height: auto; min-height: 100%;}
 
   .copyline {
     color: #727272;
-    float: left;
     font-size: 14px;
-    margin: 1px 0 0 0;
     line-height: 1.8;
   }
+}
 
-  .footer-links {
-    margin: 35px 0 0 0 ;
-    width: 300px; }
-  }
-
-  .github-nav {
+.github-nav {
   line-height: 1.2;
   margin: 1px 0 0 0;
 
@@ -603,6 +597,10 @@ body > #wrap {height: auto; min-height: 100%;}
   a:hover {
     text-decoration: underline;
   }
+}
+
+.copyline, .github-nav, .invertocat {
+  margin: 32px 0 0 0;
 }
 
 .site-logo {
@@ -629,6 +627,14 @@ only screen and (                min-resolution: 2dppx) {
     background-size: 181px 35px;
     background-image: url("../images/logo@2x.png");
   }
+}
+
+.invertocat {
+  position: absolute;
+  left: 50%;
+  margin-top: 28px;
+  margin-left: -12px;
+  opacity: .75;
 }
 
 .right {
