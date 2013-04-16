@@ -28,7 +28,7 @@
   h1, h2, h3, h4, h5, h6 {
     color: #FFF;
     font-family: "Helvetica Neue", Helvetica, "Times New Roman", sans-serif;
-    font-weight: bold; 
+    font-weight: bold;
     text-shadow: 0 -1px 1px rgba(0,0,0,.39);
   }
 
@@ -64,11 +64,11 @@ body {
   height: 100%;
 }
 
-.container  { 
-  position: relative; 
-  width: 960px; 
-  margin: 0 auto; 
-  padding: 0; 
+.container  {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 a {
@@ -82,7 +82,7 @@ a {
   height: 75px;
   padding: 25px 0 0 0;
   background-image: url('../images/eclipse_bg.png');
-  background-position: center center; 
+  background-position: center center;
   border: 1px solid #000;
   border-right: none;
   border-left: none;
@@ -104,7 +104,7 @@ a {
   border: 1px solid rgba(0,0,0,.8);
   background-color: #5E5170;
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#776889), to(#4E415E));
-  background-image: -webkit-linear-gradient(top, #776889, #4E415E); 
+  background-image: -webkit-linear-gradient(top, #776889, #4E415E);
   background-image:    -moz-linear-gradient(top, #776889, #4E415E);
   background-image:     -ms-linear-gradient(top, #776889, #4E415E);
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.29);
@@ -118,7 +118,7 @@ a {
 
 .shadow-stuff {
   border-radius: 0% 0% 100% 100% / 0% 0% 4px 4px;
-  box-shadow: 0 2px 3px rgba(0,0,0,.15); 
+  box-shadow: 0 2px 3px rgba(0,0,0,.15);
 }
 
 .top-container {
@@ -206,7 +206,7 @@ a {
         line-height: 1.5;
         color: #8D8092;
         margin: 0;
-      }   
+      }
     }
   }
 
@@ -288,7 +288,7 @@ a {
   -webkit-border-top-right-radius: 3px;
   border-top-right-radius: 3px;
   -moz-border-radius-topleft: 3px;
-  -webkit-border-top-left-radius: 3px;  
+  -webkit-border-top-left-radius: 3px;
   border-top-left-radius: 3px;
   background-color: #F6F6F6;
   background-image: -webkit-gradient(linear,left top,left bottom,color-stop(50%,rgba(249, 249, 249, 1)),color-stop(100%,rgba(240, 240, 240, 1)));
@@ -302,7 +302,7 @@ a {
   li {
     float: left;
     min-width: 46px;
-    padding: 10px 16px 12px 16px; 
+    padding: 10px 16px 12px 16px;
     margin: 0 10px -1px 0;
     text-shadow: 0 1px 1px #FFF;
     text-align: center;
@@ -373,14 +373,14 @@ a {
   p {
     margin: 0 0 10px 0;
     padding: 0 0 25px 0;
-    text-align: left; 
+    text-align: left;
     font-size: 14px;
     line-height: 1.5;
     color: #848484;
     width: 400px;
     text-shadow: 0 1px 0 #FFF;
     border-bottom: 1px solid #DDD;
-  
+
 
     a{
       color: #848484 !important;
@@ -403,7 +403,7 @@ a {
 
   li {
     float: left;
-    margin: 5px 15px 0 0;  
+    margin: 5px 15px 0 0;
   }
 
   a {
@@ -518,7 +518,7 @@ ol.slats li h3 div {
   -webkit-border-radius: 0% 0% 100% 100% / 0% 0% 8px 8px;
   -moz-border-radius: 0% 0% 100% 100% / 0% 0% 8px 8px;
   border-radius: 0% 0% 100% 100% / 0% 0% 8px 8px;
-  border: none; 
+  border: none;
   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.14);
   -moz-box-shadow: 0 1px 2px rgba(0,0,0,.14);
   box-shadow: 0 1px 2px rgba(0,0,0,.14);
@@ -545,14 +545,14 @@ ol.slats li h3 img:hover {
 
 ol.slats li p {
   margin: 12px 0 0 0;
-  text-align: left; 
+  text-align: left;
   font-size: 14px;
   line-height: 1.4;
   color: #848484;
   text-shadow: 0 1px 0 #FFF;
 }
 
-* { margin:0; padding:0; } 
+* { margin:0; padding:0; }
 
 html, body, #wrap { height: 100%; }
 
@@ -560,7 +560,7 @@ body > #wrap {height: auto; min-height: 100%;}
 
 #main { padding-bottom: 80px; }  /* must be same height as the footer */
 
-#footer { 
+#footer {
   width: 100%;
   position: relative;
   margin-top: -120px; /* negative value of footer height */
@@ -585,7 +585,7 @@ body > #wrap {height: auto; min-height: 100%;}
   .footer-links {
     margin: 35px 0 0 0 ;
     width: 300px; }
-  } 
+  }
 
   .github-nav {
   line-height: 1.2;
@@ -602,6 +602,32 @@ body > #wrap {height: auto; min-height: 100%;}
 
   a:hover {
     text-decoration: underline;
+  }
+}
+
+.site-logo {
+  float: left;
+}
+
+.site-logo a {
+  text-indent: -999em;
+  overflow: hidden;
+  float: left;
+  width: 181px;
+  height: 35px;
+  background-image: url("../images/logo.png");
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  .site-logo a {
+    background-size: 181px 35px;
+    background-image: url("../images/logo@2x.png");
   }
 }
 
@@ -628,4 +654,3 @@ body > #wrap {height: auto; min-height: 100%;}
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
-
