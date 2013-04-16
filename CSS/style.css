@@ -147,7 +147,7 @@ a {
     margin: 0 10px -6px 0; }
 
 .shadow-stuff {
-  border-radius: 0% 0% 100% 100%/0% 0% 4px 4px;
+  border-radius: 0% 0% 100% 100% / 0% 0% 4px 4px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15); }
 
 .top-container {
@@ -190,7 +190,7 @@ a {
     font-size: 24px;
     line-height: 36px;
     font-weight: bold;
-    text-shadow: 0 -1px 0 black;
+    text-shadow: 0 -1px 0 #000;
     text-decoration: none;
     font-weight: bold;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -216,12 +216,12 @@ a {
         font-size: 24px;
         line-height: .7;
         padding: 20px 0 0 15px;
-        text-shadow: 0 -1px 0 black; }
+        text-shadow: 0 -1px 0 #000; }
       .top-container a.big-button .inner p {
         padding: 3px 0 0 15px;
         font-weight: bold;
         font-size: 14px;
-        text-shadow: 0 -1px 1px black;
+        text-shadow: 0 -1px 1px #000;
         line-height: 1.5;
         color: #8D8092;
         margin: 0; }
@@ -298,9 +298,9 @@ a {
   background-image: -webkit-linear-gradient(top, #f9f9f9, #f0f0f0 100%);
   background-image: -moz-linear-gradient(top, #f9f9f9, #f0f0f0 100%);
   background-image: -ms-linear-gradient(top, #f9f9f9, #f0f0f0 100%);
-  -webkit-box-shadow: 0 -1px 1px white;
-  -moz-box-shadow: 0 -1px 1px white;
-  box-shadow: 0 -1px 1px white; }
+  -webkit-box-shadow: 0 -1px 1px #FFF;
+  -moz-box-shadow: 0 -1px 1px #FFF;
+  box-shadow: 0 -1px 1px #FFF; }
   #bottom-tabs li {
     float: left;
     min-width: 46px;
@@ -455,9 +455,9 @@ ol.slats li h3 {
 ol.slats li h3 div {
   height: 142px;
   margin: 0 0 25px 0;
-  -webkit-border-radius: 0% 0% 100% 100%/0% 0% 8px 8px;
-  -moz-border-radius: 0% 0% 100% 100%/0% 0% 8px 8px;
-  border-radius: 0% 0% 100% 100%/0% 0% 8px 8px;
+  -webkit-border-radius: 0% 0% 100% 100% / 0% 0% 8px 8px;
+  -moz-border-radius: 0% 0% 100% 100% / 0% 0% 8px 8px;
+  border-radius: 0% 0% 100% 100% / 0% 0% 8px 8px;
   border: none;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
