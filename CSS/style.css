@@ -534,20 +534,10 @@ body > #wrap {
   margin: 32px 0 0 0; }
 
 .site-logo {
-  float: left; }
-
-.site-logo a {
-  text-indent: -999em;
-  overflow: hidden;
   float: left;
-  width: 181px;
-  height: 35px;
-  background-image: url("../images/logo.png"); }
+  font-size: 36px; }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .site-logo a {
-    background-size: 181px 35px;
-    background-image: url("../images/logo@2x.png"); } }
 .invertocat {
   position: absolute;
   left: 50%;
